@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{e24d5cff-7b74-4785-8898-b71ee32e473c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{865ce760-06c8-48c1-a385-abf571957d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{c5def24f-ab4e-4e6f-a28d-753731b7bdc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{f7783610-6801-4499-a62b-628b0b44d41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates">
+      <UniqueIdentifier>{cda70f31-c17c-4931-9d4c-dc1dbfa534d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Parsers">
+      <UniqueIdentifier>{d68a8b9e-f4c3-4be2-a903-c144a8f9252f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parsers">
+      <UniqueIdentifier>{2acc6b51-497d-4b97-b32e-d8e7eaa79ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering">
+      <UniqueIdentifier>{f093ac09-29a0-4fa2-908c-9cf0db58be33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{d8c54894-81f0-43e9-a67f-9061b5d869da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering\DisplayableObjects">
+      <UniqueIdentifier>{235fcaaf-9f48-46a2-827d-018d453e25c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering\DisplayableObjects\Lights">
+      <UniqueIdentifier>{b96a8052-3174-48dd-acf0-1bedfcdcf386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\DisplayableObjects">
+      <UniqueIdentifier>{5c67826a-467f-4227-8424-9f1ad0d51ec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\DisplayableObjects\Lights">
+      <UniqueIdentifier>{b4ec859f-c097-446c-9bab-f3d71996b08a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCompiler.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectParser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Source Files\Rendering\DisplayableObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ColourOperations.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Lantern.cpp">
+      <Filter>Source Files\Rendering\DisplayableObjects\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Rendering\DisplayableObjects\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Source Files\Rendering\DisplayableObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialLibrary.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialParser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files\Rendering\DisplayableObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Hill.cpp">
+      <Filter>Source Files\Rendering\DisplayableObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>Source Files\Rendering\DisplayableObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallTree.cpp">
+      <Filter>Source Files\Rendering\DisplayableObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="EmberSystem.cpp">
+      <Filter>Source Files\Rendering\DisplayableObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Ember.cpp">
+      <Filter>Source Files\Rendering\DisplayableObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbitingIsland.cpp">
+      <Filter>Source Files\Rendering\DisplayableObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootingStarHandler.cpp">
+      <Filter>Source Files\Rendering\DisplayableObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootingStar.cpp">
+      <Filter>Source Files\Rendering\DisplayableObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCompiler.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayableObject.h">
+      <Filter>Header Files\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperFastBoi.h">
+      <Filter>Header Files\Rendering\DisplayableObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectParser.h">
+      <Filter>Header Files\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\Rendering\DisplayableObjects\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Header Files\Rendering\DisplayableObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ColourOperations.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Lantern.h">
+      <Filter>Header Files\Rendering\DisplayableObjects\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Header Files\Rendering\DisplayableObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialLibrary.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialParser.h">
+      <Filter>Header Files\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files\Rendering\DisplayableObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Hill.h">
+      <Filter>Header Files\Rendering\DisplayableObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.h">
+      <Filter>Header Files\Rendering\DisplayableObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Animatable.h">
+      <Filter>Header Files\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallTree.h">
+      <Filter>Header Files\Rendering\DisplayableObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="EmberSystem.h">
+      <Filter>Header Files\Rendering\DisplayableObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Ember.h">
+      <Filter>Header Files\Rendering\DisplayableObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbitingIsland.h">
+      <Filter>Header Files\Rendering\DisplayableObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootingStarHandler.h">
+      <Filter>Header Files\Rendering\DisplayableObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootingStar.h">
+      <Filter>Header Files\Rendering\DisplayableObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="G53GRAGLFW.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
