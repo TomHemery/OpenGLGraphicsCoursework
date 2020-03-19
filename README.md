@@ -17,6 +17,6 @@ The scene renders at ~20 FPS on a machine with the following specifications:
 
 Performance is heavily GPU dependent, the models present in the scene have several thousand polygons each.
 
-Please find the .EXE precompiled within the "Debug" folder
+Please find the .EXE precompiled within the "Build" folder
 	- double click to run 
 	- wait for loading (This takes a minute or so - check the terminal to see progress)
